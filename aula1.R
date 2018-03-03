@@ -1,4 +1,3 @@
-
 ## Funções e argumentos
 ## não há obrigatoriedade de setar o nome dos argumentos,
 ## mas é uma boa prática setar o nome dos demais exemplo: runinf(n, min, max)
@@ -37,8 +36,17 @@ ola.mundo <- function(texto){
 ## Na chamada o argumento obrigatório deve ser passado
 ola.mundo(texto = "Olá mundo!")
 
+## Tipos de dados básicos
+#Vetores atômicos: double, integer, character, logical, complex, raw
+#Vetores recursivos: list
+##typeof() class()
 
+##Setar a semente
+set.seed(123)
+x <- runif(10)
+x
 
+#2^2 = 2²
 
 
 

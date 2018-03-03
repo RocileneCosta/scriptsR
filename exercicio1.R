@@ -25,7 +25,7 @@ soma.numeros(3,5)
 
 ## criar função que simula a jogada de um dado
 dado <- function (){
-  # sample(x = 1:6, size = 1)
+   sample(x = 1:6, size = 1)
 }
 dado()
 
