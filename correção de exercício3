@@ -1,0 +1,25 @@
+Respostas:
+
+* função rep - para repetir valores
+  each = aceita apenas 1 valor numérico time= para vários valores
+  x <- ((c "A", "B", "C"), times = c(15,12,8))
+* função seq - para criar sequencias
+
+*para verificar verdadeiro ou falso
+  ?sum (parâmetro == condição)
+  
+*Exemplo de cálculo de potência
+  int <- 1:50
+  x <-2^int
+  
+*Função para cálculo de sen, cos, tan
+  exemplo: 
+  x <- seq(from = 0, to = 2*pi, by = 0.1)
+  sen(x)
+
+*Para verificar equivalencia de valores em um vetor
+  c[dif == 0]
+  o resultado serão os valores dos objetos que atendem a condição
+
+
+  
