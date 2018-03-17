@@ -1,0 +1,23 @@
+##Resolvr exercícios 3
+
+#Seleção condicional em DATA FRAMES
+## Uma função bastante útil para a descrição das informações do data frame str()
+# espaço em brnco é uma forma de seleção para o R, indica a busca de TODAS as informações
+# Seleção de campos usa-se o $ Exemplo: dados[dados$ano == 2004, ]
+# Seleção condicional exemplo:  dados[dados$captura > 20 & dados$porto =="SP", ]
+#Excluindo NA com is.na exemplo: 
+# dados[dados$captura > 20, ] ** ** dados[dados$captura > 20 & !is.na(dados$captura), ]
+#Excluindo NA com complete case
+# dados[dados$captura > 20, ] ** ** dados[dados$captura > 20 & complete.cases(dados), ]
+
+subset() -- retornam um objeto excluindo os NA, mantém a classe do objeto
+subset(dados, porto == "SP")
+
+dados[dados$captura > 20, "captura"] *** retorna um vetor
+subset(dados, captura > 20, select = "captura") *** retorna um data frame
+
+* para duas colunas usa-se a concatenação ex c("couna1", "coluna2")
+
+****************************************************************
+
+Programando com dados
